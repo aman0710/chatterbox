@@ -53,6 +53,7 @@ const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
     origin: "https://chatterbox0710.onrender.com",
+    // origin: "http://localhost:3000", // this is for running on local machine
   },
 });
 
